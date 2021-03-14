@@ -1,0 +1,9 @@
+# реалізувати функцію Сигнум
+
+x_for_signum = int(input("Введіть число: \n"))
+if x_for_signum > 0:
+    print("1")
+elif x_for_signum < 0:
+    print("-1")
+else:
+    print("0")
